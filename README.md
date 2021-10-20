@@ -7,3 +7,5 @@ Date de fin : 01/04/2022
 Prendre contact avec Mme All.
 
 Apporter à l'infirmerie les docs
+
+Vacances dès le 22 oct.
