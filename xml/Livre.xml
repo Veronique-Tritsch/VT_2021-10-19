@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<livre> 
+        <auteur>
+        <nom>Modiano</nom>
+        <prenom>Patrick</prenom>
+        <nom>Descartes</nom>
+        <prenom>René</prenom>
+        </auteur>
+        <Section>
+            <Section-Modiano Section_consacre_a_Modiano="SectionM.docx">
+                <Chapitre_1="Chap1_Modiano.docx">
+                    <Paragraphes>
+                        <Chap_Par1="Chap1_Par1_M.docx"</Chap_Par1>
+                        <Chap_Par2="Chap1_Par2_M.docx"</Chap_Par2>
+                    </Paragraphes>
+                </Chapitre_1>
+                <Chapitre_2="Chap2_Modiano.docx">
+                        <Paragraphes>
+                            <Chap_Par1="Chap2_Par1_M.docx"</Chap_Par_1>
+                            <Chap_Par2="Chap1_Par2_M.docx"</Chap_Par2>
+                        </Paragraphes>
+                </Chapitre_2>
+            </Section-Modiano>
+
+                <Section-Descartes Section_consacre_a_Descartes="SectionD.docx">
+                    <Chapitre_1="Chap1_Descartes.docx">
+                        <Paragraphes>
+                            <Chap_Par1="Chap1_Par1_D.docx"</Chap_Par1>
+                            <Chap_Par2="Chap1_Par2_D.docx"</Chap_Par2>
+                        </Paragraphes>
+                    </Chapitre_1>
+                    <Chapitre_2="Chap2_Modiano.docx">
+                            <Paragraphes>
+                                <Chap_Par1="Chap2_Par1_D.docx"</Chap_Par_1>
+                                <Chap_Par2="Chap1_Par2_D.docx"</Chap_Par2>
+                            </Paragraphes>
+                    </Chapitre_2>
+                    </Section-Descartes>
+                </Section>       
+</livre>
