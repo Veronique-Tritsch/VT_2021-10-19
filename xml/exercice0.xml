@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<personne>
+    <prenom>Boris</prenom>
+    <enfants>
+        <prenom>Justine</prenom>
+        <prenom>Alain</prenom>
+        <prenom>Alex</prenom>
+    </enfants>
+</personne>
