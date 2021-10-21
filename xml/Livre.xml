@@ -8,6 +8,7 @@
         </auteur>
         <Section>
             <Section-Modiano Section_consacre_a_Modiano="SectionM.docx">
+        <Chapitres>
                 <Chapitre_1="Chap1_Modiano.docx">
                     <Paragraphes>
                         <Chap_Par1="Chap1_Par1_M.docx"</Chap_Par1>
@@ -20,9 +21,11 @@
                             <Chap_Par2="Chap1_Par2_M.docx"</Chap_Par2>
                         </Paragraphes>
                 </Chapitre_2>
+            </Chapitres>
             </Section-Modiano>
 
                 <Section-Descartes Section_consacre_a_Descartes="SectionD.docx">
+                <Chapitres>
                     <Chapitre_1="Chap1_Descartes.docx">
                         <Paragraphes>
                             <Chap_Par1="Chap1_Par1_D.docx"</Chap_Par1>
@@ -35,6 +38,7 @@
                                 <Chap_Par2="Chap1_Par2_D.docx"</Chap_Par2>
                             </Paragraphes>
                     </Chapitre_2>
+                </Chapitres>
                     </Section-Descartes>
                 </Section>       
 </livre>
