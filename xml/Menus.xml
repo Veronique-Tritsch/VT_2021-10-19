@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Menus>
+    <Menu_1>
+        <Prix devise="euros" Desc1="Description_du_menu_1.docx">30</Prix>
+        <Entree>entree1</Entree>
+    </Menu_1>
+</Menus>
