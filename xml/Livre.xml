@@ -1,44 +1,49 @@
 <?xml version="1.0"?>
 <livre> 
-        <auteur>
-        <nom>Modiano</nom>
-        <prenom>Patrick</prenom>
-        <nom>Descartes</nom>
-        <prenom>René</prenom>
-        </auteur>
-        <Section>
-            <Section-Modiano Section_consacre_a_Modiano="SectionM.docx">
-        <Chapitres>
-                <Chapitre_1="Chap1_Modiano.docx">
+        <auteurs>
+            <auteur>
+                <nom>Modiano</nom>
+                <prenom>Patrick</prenom>
+            </auteur>
+            <auteur>
+                <nom>Descartes</nom>
+                <prenom>René</prenom>
+            </auteur>
+        </auteurs>
+
+        <Sections>
+            <Section-Modiano> SectionM="SectionM.docx">
+            <Chapitres>
+                <Chapitre_1 fichier="Chap1_Modiano.docx">
                     <Paragraphes>
-                        <Chap_Par1="Chap1_Par1_M.docx"</Chap_Par1>
-                        <Chap_Par2="Chap1_Par2_M.docx"</Chap_Par2>
+                        <Chap_Par1 fichier="Chap1_Par1_M.docx"/>
+                        <Chap_Par2 fichier="Chap1_Par2_M.docx"/>
                     </Paragraphes>
                 </Chapitre_1>
-                <Chapitre_2="Chap2_Modiano.docx">
+                <Chapitre_2 fichier="Chap2_Modiano.docx">
                         <Paragraphes>
-                            <Chap_Par1="Chap2_Par1_M.docx"</Chap_Par_1>
-                            <Chap_Par2="Chap1_Par2_M.docx"</Chap_Par2>
-                        </Paragraphes>
+                            <Chap_Par1 fichier="Chap2_Par1_M.docx"/>
+                            <Chap_Par2 fichier="Chap1_Par2_M.docx"/>
+                    </Paragraphes>
                 </Chapitre_2>
             </Chapitres>
             </Section-Modiano>
 
-                <Section-Descartes Section_consacre_a_Descartes="SectionD.docx">
+            <Section-Descartes SectionD="SectionD.docx">
                 <Chapitres>
-                    <Chapitre_1="Chap1_Descartes.docx">
+                    <Chapitre_1 fichier="Chap1_Descartes.docx">
                         <Paragraphes>
-                            <Chap_Par1="Chap1_Par1_D.docx"</Chap_Par1>
-                            <Chap_Par2="Chap1_Par2_D.docx"</Chap_Par2>
+                            <Chap_Par1 fichier="Chap1_Par1_D.docx"/>
+                            <Chap_Par2 fichier="Chap1_Par2_D.docx"/>
                         </Paragraphes>
                     </Chapitre_1>
-                    <Chapitre_2="Chap2_Modiano.docx">
+                    <Chapitre_2 fichier="Chap2_Modiano.docx">
                             <Paragraphes>
-                                <Chap_Par1="Chap2_Par1_D.docx"</Chap_Par_1>
-                                <Chap_Par2="Chap1_Par2_D.docx"</Chap_Par2>
+                                <Chap_Par1 fichier="Chap2_Par1_D.docx"/>
+                                <Chap_Par2 fichier="Chap1_Par2_D.docx"/>
                             </Paragraphes>
                     </Chapitre_2>
                 </Chapitres>
-                    </Section-Descartes>
-                </Section>       
+            </Section-Descartes>
+        </Sections>       
 </livre>
