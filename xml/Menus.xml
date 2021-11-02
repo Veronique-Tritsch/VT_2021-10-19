@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Menus>
     <Menu_1>
-        <Prix devise="euros" Desc1="Description_du_menu_1.docx">30</Prix>
-        <Entree>entree1</Entree>
+        <entree>salade de carottes</entree>
+        <entrée>macédoine de légumes</entrée>
+        <plat descr1="descr1.docx">risotto aux champignons</plat>
+        <plat descr2="descr2.docx">steak frites</plat>
+        <plat descr3="descr3.docx">pizza aux 4 fromages</plat>
+        <dessert>tarte aux fraises</dessert>
+        <dessert>clafoutis aux cerises</dessert>
+        <prix devise="euros">30</prix>        
     </Menu_1>
-</Menus>
