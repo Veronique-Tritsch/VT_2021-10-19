@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<etudiants>
+    
+    <etudiant>
+        <nom>Martin</nom>
+        <prenom>Alix</prenom>
+        <email>mail_AM</email>
+        <dateDeNaissance>21/03/2001</dateDeNaissance>
+        <formation>
+            <intitule>Licence X</intitule>
+            <duree nb="ans">3</duree>
+            <dateDeDemarrage>01/09/2021</dateDeDemarrage>
+            <dateDeFin>30/06/2024</dateDeFin>
+        </formation>
+    </etudiant>
+
+    <etudiant>
+        <nom>Dupond</nom>
+        <prenom>Henri</prenom>
+        <email>mail_HD</email>
+        <dateDeNaissance>01/06/2001</dateDeNaissance>
+        <formation>
+            <intitule>Master X</intitule>
+            <duree nb="ans">5</duree>
+            <dateDeDemarrage>04/09/2021</dateDeDemarrage>
+            <dateDeFin>30/06/2026</dateDeFin>
+        </formation>
+    </etudiant>
+
+    <etudiant>
+        <nom>Reck</nom>
+        <prenom>Marie</prenom>
+        <email>mail_MR</email>
+        <dateDeNaissance>01/08/2000</dateDeNaissance>
+        <formation>
+            <intitule>Master Z</intitule>
+            <duree nb="ans">4</duree>
+            <dateDeDemarrage>02/09/2020</dateDeDemarrage>
+            <dateDeFin>01/07/2024</dateDeFin>
+        </formation>
+    </etudiant>
+
+</etudiants>
