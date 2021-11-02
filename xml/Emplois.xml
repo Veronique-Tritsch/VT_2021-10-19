@@ -6,7 +6,7 @@
     <metier>développeur PHP</metier>
     <ville>Paris</ville>
     <descr>desc="desc_du_poste1.docx"</descr>
-    <competences desc="Les compétences requises sont :">
+    <competences>
         <competence> compétence1></competence>
         <competence> compétence2></competence>
         <competence> compétence3></competence>
@@ -24,7 +24,7 @@
             <metier>développeur JAVA</metier>
             <ville>Mulhouse</ville>
             <descr>desc="desc_du_poste2.docx"</descr>
-            <competences desc="Les compétences requises sont :">
+            <competences>
                 <competence> compétence1></competence>
                 <competence> compétence2></competence>
                 <competence> compétence3></competence>
@@ -42,7 +42,7 @@
             <metier>développeur NodeJS</metier>
             <ville>Mulhouse</ville>
             <descr>desc="desc_du_poste3.docx"</descr>
-            <competences desc="Les compétences requises sont :">
+            <competences>
                 <competence> compétence1></competence>
                 <competence> compétence2></competence>
                 <competence> compétence3></competence>
@@ -54,7 +54,5 @@
             <email>email_dév_JAVA</email>>
         
         </emploi>
-
-
 
 </offresDEmploi>
