@@ -2,9 +2,9 @@
     <Menu_1>
         <entree>salade de carottes</entree>
         <entree>macédoine de légumes</entree>
-        <plat descr1="descr1.docx">risotto aux champignons</plat>
-        <plat descr2="descr2.docx">steak frites</plat>
-        <plat descr3="descr3.docx">pizza aux 4 fromages</plat>
+        <plat descr="descr1.docx">risotto aux champignons</plat>
+        <plat descr="descr2.docx">steak frites</plat>
+        <plat descr="descr3.docx">pizza aux 4 fromages</plat>
         <dessert>tarte aux fraises</dessert>
         <dessert>clafoutis aux cerises</dessert>
         <prix devise="euros">30</prix>        
