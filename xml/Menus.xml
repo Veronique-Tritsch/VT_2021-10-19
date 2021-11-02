@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
     <Menu_1>
         <entree>salade de carottes</entree>
-        <entrée>macédoine de légumes</entrée>
+        <entree>macédoine de légumes</entree>
         <plat descr1="descr1.docx">risotto aux champignons</plat>
         <plat descr2="descr2.docx">steak frites</plat>
         <plat descr3="descr3.docx">pizza aux 4 fromages</plat>
