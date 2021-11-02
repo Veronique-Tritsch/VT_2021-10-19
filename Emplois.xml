@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<offresDEmploi>
+
+    <emploi>
+
+    <metier>développeur PHP</metier>
+    <ville>Paris</ville>
+    <descr>desc="desc_du_poste1.docx"</descr>
+    <competences desc="Les compétences requises sont :">
+        <competence> compétence1></competence>
+        <competence> compétence2></competence>
+        <competence> compétence3></competence>
+        <competence> compétence4></competence>
+        <competence> compétence5></competence>
+    </competences>
+    <dateDeDemarrage>1er déc 2021</dateDeDemarrage>
+    <salaire>montant="euros bruts/an">18 000</salaire>
+    <email>email_dév_PHP</email>>
+
+        </emploi>
+
+        <emploi>
+
+            <metier>développeur JAVA</metier>
+            <ville>Mulhouse</ville>
+            <descr>desc="desc_du_poste2.docx"</descr>
+            <competences desc="Les compétences requises sont :">
+                <competence> compétence1></competence>
+                <competence> compétence2></competence>
+                <competence> compétence3></competence>
+                <competence> compétence4></competence>
+                <competence> compétence5></competence>
+            </competences>
+            <dateDeDemarrage>1er jan 2022</dateDeDemarrage>
+            <salaire>montant="euros bruts/an">17 000</salaire>
+            <email>email_dév_JAVA</email>>
+        
+        </emploi>
+
+        <emploi>
+
+            <metier>développeur NodeJS</metier>
+            <ville>Mulhouse</ville>
+            <descr>desc="desc_du_poste3.docx"</descr>
+            <competences desc="Les compétences requises sont :">
+                <competence> compétence1></competence>
+                <competence> compétence2></competence>
+                <competence> compétence3></competence>
+                <competence> compétence4></competence>
+                <competence> compétence5></competence>
+            </competences>
+            <dateDeDemarrage>1er fév 2022</dateDeDemarrage>
+            <salaire>montant="euros bruts/an">17 000</salaire>
+            <email>email_dév_JAVA</email>>
+        
+        </emploi>
+
+
+
+</offresDEmploi>
