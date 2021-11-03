@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cinema>
+    <film>
+        <nom>Film1</nom>
+        <horairesEtJours>
+            <jour>lundi
+                <horaires>de 14 h à 16 h et de 16 h 15 à 18 h 15</horaires>
+            </jour>
+            <jour>mardi
+                <horaires>de 14 h à 16 h et de 16 h 15 à 18 h 15</horaires>
+            </jour>
+            <jour>mercredi
+                <horaires>de 14 h 30 à 16 h 30 et de 16 h 45 à 18 h 45</horaires>
+            </jour>
+            <jour>jeudi
+                <horaires>de 14 h à 16 h et de 16 h 15 à 18 h 15</horaires>
+            </jour>
+            <jour>vendredi
+                <horaires>de 14 h à 16 h et de 16 h 15 à 18 h 15</horaires>
+            </jour>
+            <jour>samedi
+                <horaires>de 14 h 30 à 16 h 30 et de 16 h 45 à 18 h 45</horaires>
+            </jour>
+            <jour>dimanche
+                <horaires>de 14 h 30 à 16 h 30 et de 16 h 45 à 18 h 45</horaires>
+            </jour>
+        </horairesEtJours> 
+    </film>
+        
+        <nom>Film2</nom>
+        <horairesEtJours>
+            <jour>lundi
+                <horaires>de 14 h à 15 h 30 h et de 16 h 15 à 18 h 15</horaires>
+            </jour>
+            <jour>mardi
+                <horaires>de 14 h à 16 h et de 16 h 15 à 18 h 15</horaires>
+            </jour>
+            <jour>mercredi
+                <horaires>de 14 h 30 à 16 h 30 et de 16 h 45 à 18 h 45</horaires>
+            </jour>
+            <jour>jeudi
+                <horaires>de 14 h à 16 h et de 16 h 15 à 18 h 15</horaires>
+            </jour>
+            <jour>vendredi
+                <horaires>de 14 h à 16 h et de 16 h 15 à 18 h 15</horaires>
+            </jour>
+            <jour>samedi
+                <horaires>de 14 h 30 à 16 h 30 et de 16 h 45 à 18 h 45</horaires>
+            </jour>
+            <jour>dimanche
+                <horaires>de 14 h 30 à 16 h 30 et de 16 h 45 à 18 h 45</horaires>
+            </jour>
+        </horairesEtJours>  
+         
+        
+
+
+
+
+
+
+
+
+</cinema>
