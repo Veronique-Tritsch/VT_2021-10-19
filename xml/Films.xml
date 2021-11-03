@@ -52,39 +52,82 @@
             </jour>
         </horairesEtJours> 
     </film>
-    <film resume="resume3">
+    <film resume="resume3.docx">
         <nom>Film3</nom>
         <horairesEtJours>
             <jour>lundi
-                <horaires>de 14 h à 15 h 30 h et de 16 h 15 à 18 h 15</horaires>
+                <horaires>de 14 h à 15 h 30 h et de 16 h à 17 h 30</horaires>
             </jour>
             <jour>mardi
-                <horaires>de 14 h à 16 h et de 16 h 15 à 18 h 15</horaires>
+                <horaires>de 14 h à 15 h 30 et de 16 h à 17 h 30</horaires>
             </jour>
             <jour>mercredi
-                <horaires>de 14 h 30 à 16 h 30 et de 16 h 45 à 18 h 45</horaires>
+                <horaires>de 14 h 30 à 16 h et de 16 h 30 à 18 h</horaires>
             </jour>
             <jour>jeudi
-                <horaires>de 14 h à 16 h et de 16 h 15 à 18 h 15</horaires>
+                <horaires>de 14 h à 15 h 30 et de 16 h à 17 h 30</horaires>
             </jour>
             <jour>vendredi
-                <horaires>de 14 h à 16 h et de 16 h 15 à 18 h 15</horaires>
+                <horaires>de 14 h à 15 h 30 et de 16 h  à 17 h 30</horaires>
             </jour>
             <jour>samedi
-                <horaires>de 14 h 30 à 16 h 30 et de 16 h 45 à 18 h 45</horaires>
+                <horaires>de 14 h 30 à 16 h et de 16 h 30 à 18 h</horaires>
             </jour>
             <jour>dimanche
-                <horaires>de 14 h 30 à 16 h 30 et de 16 h 45 à 18 h 45</horaires>
+                <horaires>de 14 h à 16 h 30 et de 16 h 30 à 18 h</horaires>
             </jour>
-        </horairesEtJours>  
-         
-        
-
-
-
-
-
-
-
-
+        </horairesEtJours> 
+        </film> 
+        <film resume="resume4.docx">
+            <nom>Film4</nom>
+            <horairesEtJours>
+                <jour>lundi
+                    <horaires>de 14 h à 15 h 30 h et de 16 h à 17 h 30</horaires>
+                </jour>
+                <jour>mardi
+                    <horaires>de 14 h à 15 h 30 et de 16 h à 17 h 30</horaires>
+                </jour>
+                <jour>mercredi
+                    <horaires>de 14 h 30 à 16 h et de 16 h 30 à 18 h</horaires>
+                </jour>
+                <jour>jeudi
+                    <horaires>de 14 h à 15 h 30 et de 16 h à 17 h 30</horaires>
+                </jour>
+                <jour>vendredi
+                    <horaires>de 14 h à 15 h 30 et de 16 h  à 17 h 30</horaires>
+                </jour>
+                <jour>samedi
+                    <horaires>de 14 h 30 à 16 h et de 16 h 30 à 18 h</horaires>
+                </jour>
+                <jour>dimanche
+                    <horaires>de 14 h à 16 h 30 et de 16 h 30 à 18 h</horaires>
+                </jour>
+            </horairesEtJours> 
+            </film> 
+            <film resume="resume5.docx">
+            <nom>Film5</nom>
+            <horairesEtJours>
+                <jour>lundi
+                    <horaires>de 14 h à 15 h 30 h et de 16 h à 17 h 30</horaires>
+                </jour>
+                <jour>mardi
+                    <horaires>de 14 h à 15 h 30 et de 16 h à 17 h 30</horaires>
+                </jour>
+                <jour>mercredi
+                    <horaires>de 14 h 30 à 16 h et de 16 h 30 à 18 h</horaires>
+                </jour>
+                <jour>jeudi
+                    <horaires>de 14 h à 15 h 30 et de 16 h à 17 h 30</horaires>
+                </jour>
+                <jour>vendredi
+                    <horaires>de 14 h à 15 h 30 et de 16 h  à 17 h 30</horaires>
+                </jour>
+                <jour>samedi
+                    <horaires>de 14 h 30 à 16 h et de 16 h 30 à 18 h</horaires>
+                </jour>
+                <jour>dimanche
+                    <horaires>de 14 h à 16 h 30 et de 16 h 30 à 18 h</horaires>
+                </jour>
+            </horairesEtJours> 
+        </film>
 </cinema>
