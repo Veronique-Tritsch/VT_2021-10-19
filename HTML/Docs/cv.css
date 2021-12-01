@@ -1,16 +1,27 @@
+body{
+    background-color: #b2ffd6;
+    color: #033A27;
+}
+
+
 h1 {
-    color:red;
+ display: inline;   
 }
-h2{
-    color:purple;
-}
-header h1 {color: royalblue;
 
+img {
+    width : 100px;
+    vertical-align: top;
 }
-main{
-    background-color: yellowgreen;
 
+h2 {
+    padding: 5px;
+    color : #033A27;
+    border: 1px solid rgb(36, 36, 161);
+    background-color:#639A87;
 }
-footer{
-    background-color: tomato;
+p {
+ /*color:#6153b9;*/
+}
+h3{
+    color:#58527e;
 }
