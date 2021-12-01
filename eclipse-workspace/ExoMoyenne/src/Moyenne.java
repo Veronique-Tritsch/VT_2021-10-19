@@ -11,7 +11,7 @@ public class Moyenne {
 		float nombre1;
 		//Réel nombre2
 		float nombre2;
-		// Réel moyenne
+		//Réel moyenne
 		float moyenne;
 
 		//SAISIE
