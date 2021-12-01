@@ -7,8 +7,8 @@ public class AireEtVolume {
 
 		//DECLARATION DES VARIABLES
 		float rayon;
-		float aire;
-		float volume;
+		double aire;
+		double volume;
 		
 		//SAISIE
 		System.out.println("Saisissez le rayon d'une sphère (sans les unités)");
@@ -18,6 +18,11 @@ public class AireEtVolume {
 		//TRAITEMENT
 		aire = 4*Math.PI*Math.pow(rayon,2);
 		volume = 4*Math.PI*Math.pow(rayon,3)/3;
+		//autre possibilité de saisie 
+		//volume = 4D/3*math.PI*Math.pow(rayon,3);
+		//volume = ((Double)4)/3*Math.PI*math.pow(rayon,3);
+		
+
 		
 		//AFFICHAGE
 		System.out.println("L'aire de la sphère est : "+aire+" et le volume de la sphère est :"+volume);
