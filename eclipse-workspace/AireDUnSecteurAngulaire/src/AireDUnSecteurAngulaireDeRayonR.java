@@ -22,7 +22,7 @@ public class AireDUnSecteurAngulaireDeRayonR {
 				
 	//AFFICHAGE
 				System.out.println("L'aire du secteur angulaire de rayon "+rayon+" et d'angle "+angle+" "
-						+ "degrés est : "+aireDuSecteurAngulaire);		L
+						+ "degrés est : "+aireDuSecteurAngulaire);		
 		}
 
 }
