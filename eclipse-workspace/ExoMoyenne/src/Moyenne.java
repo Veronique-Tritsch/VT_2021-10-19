@@ -41,7 +41,7 @@ public class Moyenne {
 		}
 			
 		//AFFICHAGE
-		//ecrire "La moyenne des deux nombres est :",moyenne
+		//écrire "La moyenne des deux nombres est :",moyenne
 		System.out.println ("La moyenne des deux nombres est: "+moyenne);
 		
 	}

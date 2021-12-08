@@ -11,7 +11,7 @@ public class InteretsAcquisSimpleEtCompose {
 		
 		float  sommeInitiale;
 		float sommePlaceeNAnnees;
-		float sommePlaceeAvecInteretCompose ;
+		double sommePlaceeAvecInteretCompose ;
 		float interet ; 
 		int nombreDAnnees ;
 		
@@ -28,30 +28,19 @@ public class InteretsAcquisSimpleEtCompose {
 		
 		System.out.println("Insérer le nombre d'années du placement bancaire") ;
 		nombreDAnnees = sc.nextInt() ;
-		
+		//Calcul de la somme acquise après N années de placement en intérêt simple
 		sommePlaceeNAnnees = sommeInitiale*(1+nombreDAnnees*interet) ;
 		
 		
 		DecimalFormat df = new DecimalFormat("0.00") ;
 		
-		sommePlaceeAvecInteretCompose
+		sommePlaceeAvecInteretCompose = sommeInitiale*Math.pow(1+interet,nombreDAnnees) ;
 		
 		
-		System.out.println("La valeur est "+df.format(sommePlaceeNAnnees));
-		
-	
-		
-		
-		
-		
-				
-		
-		
-		
-		
-		
-		
-		
+		System.out.println("La somme placée initialement rapporte en placement pendant "+nombreDAnnees+
+				" années avec un intérêt simple : "+df.format(sommePlaceeNAnnees)+
+				" et avec un intérêt composé pendant "+nombreDAnnees+" années, elle rapporte : "+df.format(sommePlaceeAvecInteretCompose)) ;
+
 	}
 
 }
