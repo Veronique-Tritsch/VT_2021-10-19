@@ -23,7 +23,7 @@ public class InteretsAcquisSimpleEtCompose {
 		Scanner sc = new Scanner(System.in) ;
 		sommeInitiale = sc.nextFloat() ;
 		
-		System.out.println("Insérer le taux d'intérêt du placement en %") ;
+		System.out.println("Insérer le taux d'intérêt du placement") ;
 		interet = sc.nextFloat() ;
 		
 		System.out.println("Insérer le nombre d'années du placement bancaire") ;
@@ -34,9 +34,11 @@ public class InteretsAcquisSimpleEtCompose {
 		
 		DecimalFormat df = new DecimalFormat("0.00") ;
 		
+		sommePlaceeAvecInteretCompose
 		
 		
-		System.out.println("La valeur est " +df.format(sommePlaceeNAnnees));
+		System.out.println("La valeur est "+df.format(sommePlaceeNAnnees));
+		
 	
 		
 		
