@@ -29,7 +29,17 @@ public class Moyenne {
 		//TRAITEMENT
 		//calcul de la moyenne
 		moyenne = (nombre1+nombre2)/2;
-		
+		//Si (moyenne>=10) Alors
+		if (moyenne>=10) {
+		//
+		}
+		//Sinon
+		else {
+		//	moyenne <-- moyenne + 1
+			moyenne= moyenne + 1 ;
+		//FinSI
+		}
+			
 		//AFFICHAGE
 		//ecrire "La moyenne des deux nombres est :",moyenne
 		System.out.println ("La moyenne des deux nombres est: "+moyenne);
