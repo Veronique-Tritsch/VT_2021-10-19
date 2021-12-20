@@ -6,7 +6,7 @@ public class Moyenne {
 		// TODO Auto-generated method stub
 		// Traduction du pseudo code en code Java
 		
-		//DECLARATION DES VARIABLES
+		//DECLARATION DES VARIABLES 
 		//Réel nombre1
 		float nombre1;
 		//Réel nombre2
@@ -29,6 +29,8 @@ public class Moyenne {
 		//TRAITEMENT
 		//calcul de la moyenne
 		moyenne = (nombre1+nombre2)/2;
+		
+		/*
 		//Si (moyenne>=10) Alors
 		if (moyenne>=10) {
 		//
@@ -38,8 +40,16 @@ public class Moyenne {
 		//	moyenne <-- moyenne + 1
 			moyenne= moyenne + 1 ;
 		//FinSI
+		}*/
+		
+		//Si (moyenne<10) Alors
+		if (moyenne < 10) {
+		//moyenne <--moyenne + 1
+			moyenne = moyenne + 1 ;
+		//FinSI
 		}
 			
+		
 		//AFFICHAGE
 		//écrire "La moyenne des deux nombres est :",moyenne
 		System.out.println ("La moyenne des deux nombres est: "+moyenne);
