@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class PromenadeAVeloOuLecture {
@@ -37,7 +38,7 @@ public class PromenadeAVeloOuLecture {
 			questionC = sc.next()  ;
 			if (questionC.equals("non")) {
 				System.out.println("Allez à la bibliothèque municipale") ;
-				System.out.println("Madame >Bovary est-il disponible à l'emprunt ?") ;
+				System.out.println("Madame Bovary est-il disponible à l'emprunt ?") ;
 				questionD = sc.next() ;
 				if (questionD.equals("oui")) {
 					System.out.println("Empruntez Madame Bovary") ;
@@ -48,7 +49,7 @@ public class PromenadeAVeloOuLecture {
 					livreChoisi = "roman policier" ;
 				}
 				System.out.println("Rentrez chez vous") ;
-				System.out.println("Lisez le livre"+livreChoisi+" dans le fauteuil") ;
+				System.out.println("Lisez le livre "+livreChoisi+" dans le fauteuil") ;
 			}
 		}		
 	}
