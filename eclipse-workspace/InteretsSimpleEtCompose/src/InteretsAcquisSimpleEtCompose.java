@@ -31,11 +31,13 @@ public class InteretsAcquisSimpleEtCompose {
 		//Calcul de la somme acquise après N années de placement en intérêt simple
 		sommePlaceeNAnnees = sommeInitiale*(1+nombreDAnnees*interet) ;
 		
+		// Créer une fonction DécimalFormat avec deux décimales
 		
 		DecimalFormat df = new DecimalFormat("0.00") ;
 		
 		sommePlaceeAvecInteretCompose = sommeInitiale*Math.pow(1+interet,nombreDAnnees) ;
 		
+		//Affichage
 		
 		System.out.println("La somme placée initialement rapporte en placement pendant "+nombreDAnnees+
 				" années avec un intérêt simple : "+df.format(sommePlaceeNAnnees)+
