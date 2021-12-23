@@ -52,9 +52,10 @@ public class PromenadeAVeloOuLecture {
 				System.out.println("Rentrez chez vous") ;
 			} else {
 				livreChoisi = "Madame Bovary" ;
-			}
+			}	
+			System.out.println("Lisez le livre "+livreChoisi+" dans le fauteuil") ;
 		}
 
-		System.out.println("Lisez le livre "+livreChoisi+" dans le fauteuil") ;
+	
 	}		
 }
