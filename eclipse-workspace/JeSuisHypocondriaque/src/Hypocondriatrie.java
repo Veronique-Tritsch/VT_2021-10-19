@@ -12,7 +12,7 @@ public class Hypocondriatrie {
 	temperature = sc.nextFloat() ;
 
 	
-	while (temperature<=38)
+	while (temperature <= 38)
 	{
         System.out.println("Vous allez bien");
         System.out.println("Quelle est maintenant votre température ?");
