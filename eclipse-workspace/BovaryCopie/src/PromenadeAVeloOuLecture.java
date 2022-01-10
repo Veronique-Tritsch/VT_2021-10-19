@@ -11,21 +11,31 @@ public class PromenadeAVeloOuLecture {
 		String questionD ;
 		String questionE ;
 		String livreChoisi ="" ;
-
-		System.out.println("Fait-il beau ?") ;
+		
 		Scanner sc = new Scanner(System.in) ;
-		questionA = sc.next() ;
+		
+		do {
+			System.out.println("Fait-il beau ?") ;
+
+			questionA = sc.next() ;
+		} while (!(questionA.equals("non") || questionA.equals("oui"))) ;
+
 		if (questionA.equals("oui")) {
-			System.out.println("Le vélo fonctionne-t-il correctement ?") ;
-			questionB = sc.next() ;
+			do {			
+				System.out.println("Le vélo fonctionne-t-il correctement ?") ;
+				questionB = sc.next() ;
+			} while (!(questionB.equals("non") || questionB.equals("oui"))) ;
 
 			if (questionB.equals("oui")) {
 				System.out.println("Allez faire du vélo") ; 
 			}
 			else {
 				System.out.println("Allez chez le garagiste") ;
-				System.out.println("Le vélo est-il réparable immédiatement ?") ; 
-				questionE = sc.next() ;
+				do {
+					System.out.println("Le vélo est-il réparable immédiatement ?") ; 
+					questionE = sc.next() ;
+				} while (!(questionE.equals("non") || questionE.equals("oui"))) ;
+
 				if (questionE.equals("non")) {
 					System.out.println("Laissez le vélo en réparation et allez cueillir des joncs autour de l'étang") ;
 				}
@@ -33,13 +43,21 @@ public class PromenadeAVeloOuLecture {
 					System.out.println("Allez faire du vélo") ;
 				}
 			}			
-		} else {
-			System.out.println("Madame Bovary est-il dans la bibliothèque de votre salon ?" ) ;
-			questionC = sc.next()  ;
+		} 
+		else {
+			do { 
+				System.out.println("Madame Bovary est-il dans la bibliothèque de votre salon ?" ) ;
+				questionC = sc.next()  ;
+			} while (!(questionC.equals("non") || questionC.equals("oui"))) ;
+		
+
 			if (questionC.equals("non")) {
 				System.out.println("Allez à la bibliothèque municipale") ;
-				System.out.println("Madame Bovary est-il disponible à l'emprunt ?") ;
-				questionD = sc.next() ;
+				do {
+					System.out.println("Madame Bovary est-il disponible à l'emprunt ?") ;
+					questionD = sc.next() ;
+				} while (!(questionD.equals("non") || questionD.equals("oui"))) ;
+				
 				// J'emprunte un livre à la bibliothèque
 				if (questionD.equals("oui")) {
 					System.out.println("Empruntez Madame Bovary") ;
@@ -50,12 +68,13 @@ public class PromenadeAVeloOuLecture {
 					livreChoisi = "roman policier" ;
 				}
 				System.out.println("Rentrez chez vous") ;
-			} else {
+			} 
+			else {
 				livreChoisi = "Madame Bovary" ;
 			}	
 			System.out.println("Lisez le livre "+livreChoisi+" dans le fauteuil") ;
+			sc.close() ;
 		}
+	}
 
-	
-	}		
-}
+}		
