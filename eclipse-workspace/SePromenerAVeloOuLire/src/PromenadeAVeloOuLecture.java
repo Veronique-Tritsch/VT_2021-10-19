@@ -10,7 +10,7 @@ public class PromenadeAVeloOuLecture {
 		String questionC ;
 		String questionD ;
 		String questionE ;
-		String livreChoisi ="" ;
+		String livreChoisi ;
 
 		System.out.println("Fait-il beau ?") ;
 		Scanner sc = new Scanner(System.in) ;
@@ -33,7 +33,8 @@ public class PromenadeAVeloOuLecture {
 					System.out.println("Allez faire du vélo") ;
 				}
 			}			
-		} else {
+		} 
+		else {
 			System.out.println("Madame Bovary est-il dans la bibliothèque de votre salon ?" ) ;
 			questionC = sc.next()  ;
 			if (questionC.equals("non")) {
@@ -56,6 +57,6 @@ public class PromenadeAVeloOuLecture {
 			System.out.println("Lisez le livre "+livreChoisi+" dans le fauteuil") ;
 		}
 
-	
+
 	}		
 }
