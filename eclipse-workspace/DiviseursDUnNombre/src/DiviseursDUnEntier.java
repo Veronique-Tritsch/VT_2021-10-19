@@ -19,11 +19,14 @@ public class DiviseursDUnEntier {
 		if (a == 0) {
 			System.out.println("Tous les nombres entiers divisent "+a) ;
 		}
+
 		else if (a == 1) {
 			System.out.println(a+" n'est divisible que par lui-même") ;
 		}
+
 		else {
-			boolean aPasDeDiviseur = true;
+			boolean aPasDeDiviseur = true ;
+
 			for (j = 2 ; j<= a-1 ; j++) {
 				reste = a % j ;
 				if (reste == 0) {
@@ -32,10 +35,8 @@ public class DiviseursDUnEntier {
 				}
 			}
 
-			if (aPasDeDiviseur==true)
-			{
+			if (aPasDeDiviseur==true) {			
 				System.out.println(a+" n'a pas de diviseurs autres que 1 et lui-même") ;
-
 			}
 			else {
 				System.out.println(a+" est aussi divisible par 1 et lui-même") ;
