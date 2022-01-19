@@ -33,6 +33,10 @@ public class CalculDesMPremiersNombresParfaits {
 			}
 
 			nbParfaitPotentiel = nbParfaitPotentiel+1 ;	
+			if (nbParfaitPotentiel==33550336)
+			{
+				System.out.println(nbParfaitPotentiel);
+			}
 		}
 			
 		sc.close() ;
