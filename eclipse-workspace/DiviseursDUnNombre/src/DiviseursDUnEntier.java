@@ -44,7 +44,7 @@ public class DiviseursDUnEntier {
 		}
 
 
-
+		sc.close()
 	}
 
 }
