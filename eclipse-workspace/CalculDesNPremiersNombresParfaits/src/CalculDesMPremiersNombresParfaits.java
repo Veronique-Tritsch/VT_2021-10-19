@@ -12,10 +12,11 @@ public class CalculDesMPremiersNombresParfaits {
 		Scanner sc = new Scanner(System.in);
 
 
-		System.out.println("Entrer un nombre entier");
+		System.out.println("Entrer un nombre entier N qui correspondra au nombre des N premiers nombres");
 				nbDeNbParfaitsATrouver = sc.nextInt() ;
 		
 		nbCourantDeNbParfaits = 1 ;
+		
 		
 		nbParfaitPotentiel = 2 ;
 		
