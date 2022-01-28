@@ -12,14 +12,14 @@ public class CalculDesMPremiersNombresParfaits {
 		Scanner sc = new Scanner(System.in);
 
 
-		System.out.println("Entrer un nombre entier N qui correspondra au nombre des N premiers nombres");
-				nbDeNbParfaitsATrouver = sc.nextInt() ;
-		
+		System.out.println("Entrer un nombre entier N qui correspondra au nombre des N premiers nombres parfaits");
+		nbDeNbParfaitsATrouver = sc.nextInt() ;
+
 		nbCourantDeNbParfaits = 1 ;
-		
-		
+
+
 		nbParfaitPotentiel = 2 ;
-		
+
 		while (nbCourantDeNbParfaits <= nbDeNbParfaitsATrouver) {
 			int somme=0 ;
 			for (diviseur =1 ; diviseur < nbParfaitPotentiel-1 ; diviseur++)	
@@ -34,12 +34,9 @@ public class CalculDesMPremiersNombresParfaits {
 			}
 
 			nbParfaitPotentiel = nbParfaitPotentiel+1 ;	
-			if (nbParfaitPotentiel==33550336)
-			{
-				System.out.println(nbParfaitPotentiel);
-			}
+
 		}
-			
+
 		sc.close() ;
 	}	
 }
