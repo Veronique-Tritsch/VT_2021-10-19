@@ -12,7 +12,7 @@ public class ReductionSurUneCoupeDeCheveuxAmeliore {
 		do {
 			System.out.println("Etes-vous étudiant ? oui/non");
 			
-			//Ci-dessous on donne à la variable étudiant la valeur de sC.next() et on transforme cette valeur en minuscules
+			//Ci-dessous on donne à la variable étudiant la valeur de sc.next() et on transforme cette valeur en minuscules
 			
 			etudiant = sc.next().toLowerCase() ;
 			
