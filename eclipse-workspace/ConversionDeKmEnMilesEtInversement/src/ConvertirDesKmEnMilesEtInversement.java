@@ -12,16 +12,22 @@ public class ConvertirDesKmEnMilesEtInversement {
 		float conversion ;
 
 		Scanner sca = new Scanner(System.in);
-
+		
 		System.out.println("Entrez une valeur suivie d'une unité : km ou mi") ;
 		saisie = sca.nextLine() ;
-		// La méthode nextLine récupère toute la ligne et pas uniquement la partie de ligne avant l'espace
+		// La méthode nextLine récupère toute la ligne et pas uniquement la partie de ligne (chaîne de caractères) avant l'espace
 		
+		
+		// La méthode trim élimine tous les caractères espace qui entourent aux extrémités la variable saisie
+		//et renvoie cette nouvelle chaîne de caractères à la variable saisie
+		saisie = saisie.trim();
+		
+		//tableauDeConversion est un tableau de chaînes de caractères qui seront toutes celles comprises 
+		// entre le caractère espace (qui se trouve entre les guillemets)
 		tableauDeConversion = saisie.split(" ") ;
-		//tableauDeConversion est un tableau de chaînes de caractères qui seront toutes celles comprises entre le caractère espace (qui se trouve entre les guillemets)
 		
-		valeur = Float.valueOf(tableauDeConversion[0]);
 		// La méthode valueOf sert à convertir une chaîne de caractères en float ou integer ou double
+		valeur = Float.valueOf(tableauDeConversion[0]);
 
 		if(tableauDeConversion.length > 1) {
 			uniteDeMesure = tableauDeConversion[1] ; 
@@ -29,9 +35,10 @@ public class ConvertirDesKmEnMilesEtInversement {
 		else {
 			uniteDeMesure = "km" ;
 		}
-
+  
+		/* La méthode toLowerCase traduit en minuscules la variable uniteDeMesure et renvoie cette chaîne de caractères
+		(en minuscules) à la variable uniteDeMesure */
 		uniteDeMesure = uniteDeMesure.toLowerCase() ;
-		// La méthode toLowerCase traduit en minuscules la variable uniteDeMesure et renvoie cette chaîne de caractères (en minuscules) à la variable uniteDEMesure  
 		
 		if (uniteDeMesure.equals("km")) {
 			conversion = valeur/1.609f ;
