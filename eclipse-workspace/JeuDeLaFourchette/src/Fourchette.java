@@ -28,9 +28,9 @@ public class Fourchette {
 			}
 			else if (nbUtilisateur < nbMachine)
 			{min = nbUtilisateur ;}
-			else {System.out.println("Bravo ! vous avez trouvé en "+ nbTentatives +" tentatives. Le nombre cherché est : "+ nbUtilisateur);
+			else {System.out.println("Bravo ! vous avez trouvé en "+ nbTentatives +" tentatives. "
+					+ "Le nombre cherché est : " + nbUtilisateur +".");
 			trouve = true ;}
-
 		}
 
 		while (trouve == false) ;
