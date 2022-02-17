@@ -36,6 +36,6 @@ public class Fourchette {
 		while (trouve == false) ;
 
 		System.out.println ("Jeu terminé.") ;
-	}
+			}
 
 }
