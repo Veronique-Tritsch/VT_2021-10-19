@@ -6,11 +6,12 @@ public class Fourchette {
 		// TODO Auto-generated method stub
 
 		Scanner sca = new Scanner(System.in); 
+		
 		Random monObj = new Random() ;
-
-
+		
 
 		int nbMachine = monObj.nextInt(101);
+		
 		int nbUtilisateur ;
 		int min = 0;
 		int max = 100 ; 

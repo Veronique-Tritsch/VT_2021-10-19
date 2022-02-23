@@ -14,9 +14,11 @@ public class ConvertisseurSimple {
 		double valeurAConvertir ;
 		do {
 			System.out.println ("Saisissez une température comprise entre -459.67 et 500000 suivi de son unité de mesure C ou F." ) ;
+			
 			Scanner sca = new Scanner(System.in) ;
 					
 			uniteEtMesure = sca.nextLine() ;
+			
 			uniteEtMesure = uniteEtMesure.toUpperCase () ;
 			
 			temperatureAConvertir = uniteEtMesure.split(" ") ;
