@@ -15,15 +15,17 @@ public class RechercheDUnNombreDansUnTableau {
 		nbN = sca.nextInt() ;
 
 		for (int valeur : tableauDEntiers) {
+			
 			if (nbN ==valeur) {
 				System.out.println("Le nombre recherché est à l'indice : " + indice +" et à la "+ (indice+1) +"ème position dans le tableau");
 				valeurIndice = indice ;
 			}
+			
 			indice++ ;
 		}
 
 		if (valeurIndice == -1) {
-			System.out.println("Nomnre "+"non trouvé") ;
+			System.out.println("Nombre "+"non trouvé") ;
 		}
 
 		sca.close();
