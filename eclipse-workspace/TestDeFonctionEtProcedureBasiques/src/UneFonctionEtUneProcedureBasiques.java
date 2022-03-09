@@ -36,7 +36,7 @@ public class UneFonctionEtUneProcedureBasiques {
 
 	/* Déclaration des méthodes ecritUnMessage() et additionner() 
 	 * dans la classe UneFonctionEtUneProcedureBasiques
-	 * donc en dehors de la procédure main*/
+	 * donc en dehors de la procédure main */
 
 	public static void ecritUnMessageSimple (String message) {
 		System.out.println ("Bonjour ! "+ message +". Au revoir !") ;
