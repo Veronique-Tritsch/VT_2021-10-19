@@ -15,7 +15,7 @@ public class UneFonctionEtUneProcedureBasiques {
 		phrase = sca.nextLine() ;
 
 
-		// Appel de la procédure ecritUnMessage() 
+		// Appel de la procédure ecritUnMessageSimple() 
 		ecritUnMessageSimple (phrase) ;
 
 		
