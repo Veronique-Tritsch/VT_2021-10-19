@@ -29,7 +29,7 @@ public class ConvertirDesKmEnMiles {
 		} while (nbDeKm < 0.01 || nbDeKm > 1000000) ;
 		nbDeMiles = nbDeKm/1.609f ;
 		System.out.println(nbDeKm+" km donnent "+nbDeMiles+" miles") ;
-
+		System.out.println(String.format("%f km donnent %f miles !", nbDeKm, nbDeMiles)) ; 
 
 	}
 

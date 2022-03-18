@@ -18,7 +18,7 @@ public class RechercheDUneLettreDansUneChaineDeCaracteres {
 		chaine = sca.nextLine() ; 
 
 		longueurDeChaine = chaine.length() ;
-		
+
 		String caractereAChercher ;
 		/* Répétition d'une boucle tant qu'on n'a pas introduit au moins un caractère*/
 		do {
@@ -26,9 +26,9 @@ public class RechercheDUneLettreDansUneChaineDeCaracteres {
 			caractereAChercher =sca.nextLine() ; 
 		}
 		while (caractereAChercher.length() < 1 ) ;
-
+		// Affectation du 1er caractère saisi à la variable caractere
 		caractere = caractereAChercher.charAt(0) ;
-		
+
 		int nbDeFoisEstPresenteLaLettre = 0 ;
 
 

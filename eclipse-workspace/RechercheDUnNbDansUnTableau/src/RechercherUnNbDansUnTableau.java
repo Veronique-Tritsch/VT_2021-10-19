@@ -18,7 +18,10 @@ public class RechercherUnNbDansUnTableau {
 		while (i < tab.length) {
 			if (tab[i] == nbSaisi) {
 				estDansTab = true ;
-				System.out.println ("Le nombre saisi est dans le tableau à la "+(i+1)+"ème position et donc avec l'indice " +i+ ".") ;				
+				System.out.println ("Le nombre saisi est dans le tableau à la "+(i+1)+"ème position et donc avec l'indice " +i+ ".") ;
+				
+				String phrase = String.format("Le nombre saisi est dans le tableau à la %dème position et donc avec l'indice %d !", i+1, i) ;
+				System.out.println(phrase);
 			}
 			i =i+1 ;
 		}
