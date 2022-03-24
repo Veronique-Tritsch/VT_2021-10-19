@@ -39,15 +39,20 @@ public class JouonsAuPendu {
 		for (int i = 1 ; i < mot.length()-1 ; i++) {
 			tableauDeCaracteres[i] = '-' ; }
 
-
+/* On affiche le mot du pendu à trouver avec les tirets 
+ * pour lesquels il faut trouver une lettre manquante 
+ */
 		for (int i = 0 ; i< mot.length() ; i++) {
 
 			System.out.print(tableauDeCaracteres[i]) ; }
 
 		indice = 0 ;
 		String valeurActuelle;
+		/* répéter tant que indice < 6 ou le booléen caractereTrouve est vrai (c'est-à-dire qu'on a trouvé un caractère manquant dans le mot du pendu) et tant que la valeur de "mot" est différente du mot "valeur actuelle" 
+		 * 
+		 */
 		do {
-			
+			/* \n renvoire à la ligne */
 			System.out.println("\nproposez un caractère (ou une lettre)") ;
 			/* il y a un "if ternaire" dans l'instruction qui suit (après le mot "essai") :
 			 * on mettra un "s" à "essai" si le nombre (6-indice) est supérieur à 1 */
@@ -55,6 +60,7 @@ public class JouonsAuPendu {
 			/* Pour éviter des casses différentes lors des comparaisons 
 			 * on récupère la chaîne de caractères string en majuscules. */
 			letter = sca.next().toUpperCase() ;
+			/* On convertit le string letter en un caractère*/
 			caractere = letter.charAt(0) ;
 			caractereTrouve = false ;
 
@@ -68,7 +74,7 @@ public class JouonsAuPendu {
 			for (int i = 0 ; i< mot.length() ; i++) {
 				System.out.print(tableauDeCaracteres[i]) ; }
 			/*copyValueOf est une fonction qui convertit 
-			un tableau de caractères en chaîne de caractères
+			un tableau de caractères en chaîne de caractères (String)
 			*/
 			valeurActuelle = String.copyValueOf(tableauDeCaracteres);
 		} while ((indice < 6 || caractereTrouve == true) && !mot.equals(valeurActuelle)) ;
