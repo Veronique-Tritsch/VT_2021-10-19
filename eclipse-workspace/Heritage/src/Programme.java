@@ -13,7 +13,8 @@ public class Programme {
 		tata = new Animal();
 		
 		tata.setEspece("chat");
-		System.out.println("toto est un "+ toto.getEspece());
+		
+		System.out.println("tata est un "+ tata.getEspece());
 		
 
 	}
